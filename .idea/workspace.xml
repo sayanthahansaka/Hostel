@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b116e7a0-18e4-40c6-a8c9-f56923cf2203" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NsS03ZDnqkjFcOh6A6aGwWel6h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/Hostel Management System/src/lk/ijse/hostel/service/custom",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lk.ijse.hostel.entity" />
+      <recent name="lk.ijse.hostel.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\service\custom" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\view\tdm" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\view" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\lib" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\hostel\lib" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\lk\ijse\Hostel Management System\view" />
+      <recent name="C:\Users\user\Desktop\Hostel Management System\src\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.hostel.dao.custom.impl" />
+      <recent name="lk.ijse.hostel.dao.custom" />
+      <recent name="lk.ijse.hostel.dto" />
+      <recent name="lk.ijse.hostel.service.custom.impl" />
+      <recent name="lk.ijse.hostel.entity" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b116e7a0-18e4-40c6-a8c9-f56923cf2203" name="Changes" comment="" />
+      <created>1680451069807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680451069807</updated>
+      <workItem from="1680451070982" duration="457000" />
+      <workItem from="1680452828952" duration="18000" />
+      <workItem from="1680490548232" duration="6225000" />
+      <workItem from="1680508725524" duration="9827000" />
+      <workItem from="1680528843481" duration="3373000" />
+      <workItem from="1680574846358" duration="24541000" />
+      <workItem from="1680662222017" duration="9903000" />
+      <workItem from="1680786456822" duration="6095000" />
+      <workItem from="1680846977188" duration="4806000" />
+      <workItem from="1680922378577" duration="717000" />
+      <workItem from="1680924158297" duration="1370000" />
+      <workItem from="1680959554724" duration="6236000" />
+      <workItem from="1681029546325" duration="496000" />
+      <workItem from="1681107803851" duration="4593000" />
+      <workItem from="1681136377800" duration="423000" />
+      <workItem from="1681311004878" duration="112000" />
+      <workItem from="1681367405599" duration="1833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

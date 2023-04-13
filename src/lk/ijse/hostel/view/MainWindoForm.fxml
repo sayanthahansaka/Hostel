@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #2f3640;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.MainWindoFormController">
+   <children>
+      <Label layoutX="792.0" layoutY="31.0" text="HOSTEL" textFill="#0c1f39">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <ListView layoutX="-2.0" layoutY="102.0" prefHeight="977.0" prefWidth="410.0" style="-fx-background-color: #2f3640;" />
+      <JFXButton layoutX="8.0" layoutY="404.0" onAction="#btnRegistrationOnAction" prefHeight="107.0" prefWidth="410.0" text="Registration" textFill="#f4f5f5">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="#8a5c5c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="79.0" fitWidth="104.0" layoutX="9.0" layoutY="418.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/notebook.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="8.0" layoutY="511.0" onAction="#btnRoomOnAction" prefHeight="107.0" prefWidth="410.0" text="Room" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="79.0" fitWidth="104.0" layoutX="9.0" layoutY="525.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/bedroom.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="8.0" layoutY="618.0" onAction="#btnKeyMoneyOnAction" prefHeight="107.0" prefWidth="410.0" text="Key Money" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="79.0" fitWidth="97.0" layoutX="12.0" layoutY="632.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/keys.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="8.0" layoutY="900.0" onAction="#btnLogoutOnAction" prefHeight="107.0" prefWidth="410.0" text="Sign Out" textFill="#f50b0b">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="92.0" fitWidth="122.0" layoutX="14.0" layoutY="908.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/logout.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="8.0" layoutY="297.0" onAction="#btnReservationOnAction" prefHeight="107.0" prefWidth="410.0" text="Reservation" textFill="#f4f5f5">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="#8a5c5c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="85.0" fitWidth="104.0" layoutX="15.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/walking-scalator.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="8.0" layoutY="190.0" onAction="#btnLogInDetailOnAction" prefHeight="107.0" prefWidth="410.0" text="LogIn Detail" textFill="#f4f5f5">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9a2020" />
+                  <Stop color="#8a5c5c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="85.0" fitWidth="104.0" layoutX="6.0" layoutY="201.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/login-password.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="tablePane" layoutX="420.0" layoutY="175.0" prefHeight="905.0" prefWidth="1500.0">
+         <children>
+            <ImageView fitHeight="876.0" fitWidth="1500.0" layoutX="-1.0" layoutY="-3.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/30132602_97z_2206_w009_n001_143c_p6_143.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

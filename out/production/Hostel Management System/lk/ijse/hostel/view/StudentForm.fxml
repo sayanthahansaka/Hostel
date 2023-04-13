@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneStudent" prefHeight="905.0" prefWidth="1500.0" style="-fx-background-color: #2C3A47;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.StudentFormController">
+   <children>
+      <Label layoutX="552.0" layoutY="77.0" prefHeight="88.0" prefWidth="535.0" text="Student Registration" textFill="#9196cd">
+         <font>
+            <Font name="System Bold Italic" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="293.0" prefHeight="47.0" prefWidth="186.0" text="Student ID" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="578.0" prefHeight="47.0" prefWidth="186.0" text="Student DOB" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="357.0" prefHeight="47.0" prefWidth="211.0" text="Student Name" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="429.0" prefHeight="47.0" prefWidth="251.0" text="Student Address" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="498.0" prefHeight="47.0" prefWidth="241.0" text="Student Contact" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="656.0" prefHeight="47.0" prefWidth="231.0" text="Student Gender" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtID" layoutX="561.0" layoutY="298.0" prefHeight="38.0" prefWidth="251.0" />
+      <JFXTextField fx:id="txtName" layoutX="561.0" layoutY="362.0" prefHeight="38.0" prefWidth="251.0" />
+      <JFXTextField fx:id="txtAddress" layoutX="561.0" layoutY="434.0" prefHeight="38.0" prefWidth="251.0" />
+      <JFXTextField fx:id="txtContact" layoutX="561.0" layoutY="503.0" prefHeight="38.0" prefWidth="251.0" />
+      <JFXButton fx:id="btnAdd" layoutX="253.0" layoutY="716.0" onAction="#addOnAction" prefHeight="50.0" prefWidth="88.0" style="-fx-background-color: #4cd137;" text="Add">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSearch" layoutX="414.0" layoutY="716.0" onAction="#searchOnAction" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #00a8ff;" text="Search">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnUpdate" layoutX="587.0" layoutY="716.0" onAction="#updateOnAction" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #fbc531;" text="Update">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnDelete" layoutX="764.0" layoutY="716.0" onAction="#deleteOnAction" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #e84118;" text="Delete">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1323.0" layoutY="824.0" onAction="#logoutOnAction" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #c23616;" text="Logout">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox fx:id="combGender" layoutX="552.0" layoutY="664.0" onAction="#genderOnAction" prefHeight="31.0" prefWidth="251.0" />
+      <JFXDatePicker fx:id="txtDOB" layoutX="552.0" layoutY="586.0" prefHeight="31.0" prefWidth="251.0" />
+   </children>
+</AnchorPane>

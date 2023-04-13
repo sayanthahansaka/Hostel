@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneKeyMoney" prefHeight="905.0" prefWidth="1500.0" style="-fx-background-color: #2C3A47;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostel.controller.KeyMoneyFormController">
+   <children>
+      <Label layoutX="348.0" layoutY="76.0" prefHeight="88.0" prefWidth="833.0" text="Find Remain Key-Money Student" textFill="#9196cd">
+         <font>
+            <Font name="System Bold Italic" size="52.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnOkay" layoutX="758.0" layoutY="494.0" onAction="#okayOnAction" prefHeight="50.0" prefWidth="88.0" style="-fx-background-color: #4cd137;" text="Okay">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="572.0" layoutY="237.0" prefHeight="47.0" prefWidth="186.0" text="Student ID:" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="572.0" layoutY="317.0" prefHeight="47.0" prefWidth="216.0" text="Student Name:" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="572.0" layoutY="406.0" prefHeight="47.0" prefWidth="216.0" text="Status:" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtSName" layoutX="821.0" layoutY="325.0" prefHeight="31.0" prefWidth="233.0" />
+      <JFXTextField fx:id="txtSID" layoutX="821.0" layoutY="245.0" prefHeight="31.0" prefWidth="233.0" />
+      <JFXTextField fx:id="txtStatus" layoutX="831.0" layoutY="414.0" prefHeight="31.0" prefWidth="233.0" />
+   </children>
+</AnchorPane>
